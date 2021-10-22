@@ -24,7 +24,10 @@ public class EOF
        System.out.println("new Array");
        for(int k:ans)
        {
-          System.out.println(k);
+          
+        System.out.println(k);
+        System.out.println(k);
+        System.out.println(k);
        }
    }    
 }

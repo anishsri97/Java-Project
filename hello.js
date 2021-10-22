@@ -7,7 +7,8 @@ var x=3
 
 function mul()
 {
-   console.log("heloo js")
+   console.log("heloo js");
+   console.log("hello india");
    
 }
 console.log(x)
