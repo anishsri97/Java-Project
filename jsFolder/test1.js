@@ -51,5 +51,9 @@ else console.log("hello number");
 const x = `hello ${name} and my age is ${year-dob}`;
 console.log(x);
 
-//
+//array
+
+const arr=[1,2,3,4,5,6,7,8,9,10];
+
+for( a in arr)console.log(a);
 
