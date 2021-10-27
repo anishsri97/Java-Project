@@ -43,3 +43,13 @@ var a=11;
 if(a%2==0)console.log("Even");
 else if(a%2!=0)console.log("odd");
 else console.log("hello number");
+
+
+//LITERALS
+
+
+const x = `hello ${name} and my age is ${year-dob}`;
+console.log(x);
+
+//
+
