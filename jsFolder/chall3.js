@@ -14,12 +14,30 @@ console.log(`shift ${bill}`);
 bill.unshift(300); /* unshift will add first position*/
 console.log(`unshift ${bill}`);
 
+
 //Object creation in Java Script
 //
 const darsh=
 {
-   fullName:'Ashvik Srivastava',nickNmae:'Darsh',dob:'09/10/2019',hobby:'playing games'
+   fullName:'Ashvik Srivastava',nickName:'Darsh',dob:'09/10/2019',hobby:'playing games'
 };
+
+const student=
+{
+    firstName: 'Anish Srivastava',
+    lastName : 'Rishi Srivastava',
+    email : 'siranish97@gmail.com',
+    twitter: '@sriva97',
+    fb:'srianish',
+    Gmail:'anishwithrishi@yahoo.com' 
+};
+
+
+console.log(`by dot notation ${student.firstName}`);
+const info= prompt("Enter name info you want to know");
+console.log(`by expression ${student[info]}`);
+
+
 
 
 
