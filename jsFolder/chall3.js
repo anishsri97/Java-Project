@@ -3,6 +3,17 @@
 
 const bill = [30,50,300,100,150];
 
+bill.push(10); /* push will add the elemnt in last position*/
+console.log(`ten is pushed ${bill}`);
+bill.pop();
+console.log(`Popped ${bill}`); /* pop will remove the element from back*/
+console.log(bill.indexOf(50)); /* indexof will check the index of element*/
+console.log(bill.includes(300));  /* includes will check the element in array*/ 
+bill.shift(); /* shift will remove from front*/
+console.log(`shift ${bill}`);
+bill.unshift(300); /* unshift will add first position*/
+console.log(`unshift ${bill}`);
+
 const calTip = (bill)=>
 {
     const tip=[];
